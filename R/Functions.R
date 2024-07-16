@@ -4400,6 +4400,7 @@ id.map<-function(gene.list,all.genes){
 #'   \item {\bold{normal}} {A balance between marker accuracy and computational time. }
 #'   \item {\bold{fast}} {Fastest computational time, if you are in a hurry and you have lots of cell (>15K) you can use this}
 #' }
+#' @param modality Sets the method for which cell-cell distances will be calculated. There are three options: "jaccard", "pca", and "correlation".
 #' @param memory.save enables a series of tricks to reduce RAM memory usage. Aware of one case (in linux) in which this option causes irreversible error.
 #' @param clustering setting \code{clustering='recursive'} forces the immediate and accurate detection of cell subtypes. 
 #' 
